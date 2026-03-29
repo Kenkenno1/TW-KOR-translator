@@ -767,7 +767,7 @@
         display: '中文',
         tts: { localLang: 'zh-TW' },
         promptName: '繁體中文（台灣）',
-        translateExtra: '\n用詞以台灣常用說法，避免簡體用語，標點採全形。口吻自然。',
+        translateExtra: '\n用詞以台灣常用說法，避免簡體用語，標點採全形。口吻自然。所有韓文必須完整翻譯成中文，不可夾雜韓文原文。',
       },
       'ko': {
         display: '한국어',
@@ -1515,7 +1515,7 @@
 - 用詞必須是台灣人日常口語說法，不可出現中國大陸用語（如「信息」→「資訊」、「軟件」→「軟體」、「視頻」→「影片」）。
 - 標點全形（，、。！？），括號用全形。
 - 語氣自然親切。
-- 韓文專有名詞保留原文並加括號中文註解（首次出現時）。`,
+- 所有韓文一般詞彙必須完整翻譯成中文，不可保留韓文原文。只有人名、地名、品牌名等真正的專有名詞才保留韓文原文並加括號中文註解。`,
       };
       return `You are a world-class bilingual editor (Traditional Chinese ↔ Korean) with 15 years of experience in content localization.
 
